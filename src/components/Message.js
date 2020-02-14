@@ -13,6 +13,9 @@ class Message extends Component{
                 { this.props.line2 !== undefined &&
                     <h2>{this.props.line2}</h2>
                 }
+                {this.props.email !== undefined &&
+                    <h3>{this.props.email}</h3>
+                }
             </header>
         )
     }

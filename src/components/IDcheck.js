@@ -9,7 +9,7 @@ class IDcheck extends Component{
     render(){
         return(
            <div>
-               W<input type="text" limit="8"></input>
+               W<input type="text" limit="8" defaultValue="30289793"></input>
            </div>
         )
     }
