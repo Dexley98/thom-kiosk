@@ -16,9 +16,11 @@ class Back extends Component{
 
     render(){
         return(
-            <Link to={this.props.destination}>
-                <img src={back} alt="back button" style={{width: 25, height: 25}}/>
-            </Link>
+            <div className="back-arrow">
+                <Link to={this.props.destination}>
+                    <img className="back-arrow-image" src={back} alt="back button" style={{width: 150, height: 150}}/>
+                </Link>
+            </div>
         )
         
     }

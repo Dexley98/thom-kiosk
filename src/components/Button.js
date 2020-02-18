@@ -15,18 +15,22 @@ class Button extends Component{
     render(){
         if(this.props.money === undefined){
             return(
-                <Link to={this.props.destination}>
-                    <button onClick={() => console.log('HI')}>{this.props.text}</button>
-                </Link>
+                <div className={this.props.classy}>
+                    <Link to={this.props.destination}>
+                        <button onClick={() => console.log('HI')}>{this.props.text}</button>
+                    </Link>
+                </div>
             )
         }
         return(
-            <Link to={this.props.destination}>
-                <button>
-                    <p>{this.props.text}</p>
-                    <p>{this.props.money}</p>
-                </button>
-            </Link>
+            <div className={this.props.classy}>
+                <Link to={this.props.destination}>
+                    <button>
+                        <p>{this.props.text}</p>
+                        <p>{this.props.money}</p>
+                    </button>
+                </Link>
+            </div>
         )
         
     }

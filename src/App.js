@@ -37,17 +37,17 @@ export default function App() {
             <Time />  
             <Logo />
             <Message line1="Plese Choose an Option" />
-            <Button destination="/school-group" text="School Group"/>
-            <Button destination="/individual" text="Individual" money="($9.99)"/>
+            <Button classy="left-button" destination="/school-group" text="School Group"/>
+            <Button classy="right-button" destination="/individual" text="Individual" money="($9.99)"/>
           </Route>
 
           <Route path="/school-group">
             <Back destination="/visitors" />
             <Time />
             <Logo />
-            <Message line1="How many are in your group?" />
+            <Message line1="How many in your group?" />
             <Group />
-            <Button destination="/school-payment" text="Proceed to Payment"/>
+            <Button classy="group-button" destination="/school-payment" text="Proceed to Payment"/>
             <Exit destination="/" />
           </Route>
 
@@ -57,7 +57,7 @@ export default function App() {
             <Logo />
             <Message line1="Enter Your Card Information" />
             <Form needEmail={true} />
-            <Button destination="/school-confirmation" text="Submit"/>
+            <Button classy="solo-form" destination="/school-confirmation" text="Submit"/>
             <Exit destination="/" />
           </Route>
 
@@ -75,7 +75,7 @@ export default function App() {
             <Logo />
             <Message line1="Enter Your Card Information" />
             <Form needEmail={true} />
-            <Button destination="/individual-confirmation" text="Submit"/>
+            <Button classy="solo-form" destination="/individual-confirmation" text="Submit"/>
             <Exit destination="/" />
           </Route>
 
@@ -93,8 +93,8 @@ export default function App() {
             <Logo />
             <Message line1="Please Enter Your WU #" line2="We will send your receipt to the email on file for this Account." />
             <IDcheck />
-            <Button destination="/staff" text="Faculty &amp; Staff"/>
-            <Button destination="/students" text="Students"/>
+            <Button classy="left-button-interorg" destination="/staff" text="Faculty &amp; Staff"/>
+            <Button classy="right-button-interorg" destination="/students" text="Students"/>
             <Exit destination="/" />
           </Route>
 
@@ -103,8 +103,8 @@ export default function App() {
             <Time />
             <Logo />
             <Message line1="Good Afternoon Gerry" line2="Please Choose an Option" />
-            <Button destination="/staff-payment" text="Credit Card" money="($5.99)"/>
-            <Button destination="/staff-confirmation" text="Enter with Meal Plan"/>
+            <Button classy="left-button" destination="/staff-payment" text="Credit Card" money="($5.99)"/>
+            <Button classy="right-button" destination="/staff-confirmation" text="Enter with Meal Plan"/>
             <Exit destination="/" />
           </Route>
 
@@ -114,7 +114,7 @@ export default function App() {
             <Logo />
             <Message line1="Enter Your Card Information" />
             <Form needEmail={false}/>
-            <Button destination="/staff-confirmation" text="Submit"/>
+            <Button classy="solo-form" destination="/staff-confirmation" text="Submit"/>
             <Exit destination="/" />
           </Route>
 
@@ -131,8 +131,8 @@ export default function App() {
             <Time />
             <Logo />
             <Message line1="Good Afternoon Dom" line2="Please Choose an Option" />
-            <Button destination="/student-payment" text="Credit Card" money="($9.99)"/>
-            <Button destination="/student-confirmation" text="Enter with Meal Plan"/>
+            <Button classy="left-button" destination="/student-payment" text="Credit Card" money="($9.99)"/>
+            <Button classy="right-button" destination="/student-confirmation" text="Enter with Meal Plan"/>
             <Exit destination="/" />
           </Route>
 
@@ -142,7 +142,7 @@ export default function App() {
             <Logo />
             <Message line1="Enter your Card Information" />
             <Form needEmail={false}/>
-            <Button destination="/student-confirmation" text="Submit"/>
+            <Button classy="solo-form" destination="/student-confirmation" text="Submit"/>
             <Exit destination="/" />
           </Route>
 
@@ -158,8 +158,7 @@ export default function App() {
             <Time />
             <Logo />
             <Message line1="Welcome to Thomson Cafe"/>
-            <Button destination="/users" text="Menu: Featured Item -- Chargrilled Hamburger" />
-            <Button destination="/pay-to-enter" text="Pay to enter"/>
+            <Button classy="solo" destination="/pay-to-enter" text="Pay to enter"/>
           </Route>
 
         </Switch>

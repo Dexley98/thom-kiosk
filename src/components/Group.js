@@ -20,10 +20,12 @@ class Group extends Component{
 
     render(){
         return(
-            <div>
-                <input type="number" value={this.state.value} onChange={this.handleChange} onClick={()=> console.log(this.state.value)}/>
-                <h1>Price: $9.99</h1>
-                <h1>Total: ${this.calculateTotal()}</h1>
+            <div className="group">
+                <input className="number-input" type="number" value={this.state.value} onChange={this.handleChange} onClick={()=> console.log(this.state.value)}/>
+                <div className="group-totals">
+                    <h2>Price: <span className="group-money">$9.99</span></h2>
+                    <h2>Total: <span className="group-money">${this.calculateTotal()}</span></h2>
+                </div>
             </div>
         )
     }

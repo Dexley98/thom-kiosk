@@ -12,9 +12,9 @@ class Turnstile extends Component{
             return Math.round(randVal)
         }
         return(
-            <div>
+            <div className="hello">
                 <h1>Enter this number at the turnstile</h1>
-                <h3>{random(101,999)}</h3>
+                <h4 className="turnstile-number">{random(101,999)}</h4>
             </div>
         )
     }

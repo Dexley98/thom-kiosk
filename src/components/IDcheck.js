@@ -8,8 +8,8 @@ class IDcheck extends Component{
 
     render(){
         return(
-           <div>
-               W<input type="text" limit="8" defaultValue="30289793"></input>
+           <div className="id-check">
+               <span className="id-w">W</span><input type="text" limit="8" defaultValue="30289793"></input>
            </div>
         )
     }

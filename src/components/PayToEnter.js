@@ -19,8 +19,8 @@ class PayToEnter extends Component{
                 <Time />
                 <Logo />
                 <Message line1="Please Choose an Option" />
-                <Button destination="/inter-org" text="WU Faculty, Staff, and Students"/>
-                <Button destination="/visitors" text="Vistors"/>
+                <Button classy="left-button" destination="/inter-org" text="WU Faculty, Staff, and Students"/>
+                <Button classy="right-button" destination="/visitors" text="Vistors"/>
             </div>
         )
     }
