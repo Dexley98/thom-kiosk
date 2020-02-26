@@ -16,9 +16,11 @@ class Exit extends Component{
 
     render(){
         return(
-            <Link to={this.props.destination}>
-                <img src={exit} alt="exit button" style={{width: 25, height: 25}}/>
-            </Link>
+            <div className="exit-button">
+                <Link to={this.props.destination}>
+                    <img src={exit} alt="exit button" style={{width: 25, height: 25}}/>
+                </Link>
+            </div>
         )
         
     }

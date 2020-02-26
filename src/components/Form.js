@@ -8,7 +8,7 @@ class Form extends Component{
 
     render(){
         return(
-            <div class="form">
+            <div className="form">
                 {this.props.needEmail &&
                     <input type="email" placeholder="Email (for your receipt)"/>
                 }

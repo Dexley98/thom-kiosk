@@ -68,7 +68,7 @@ class Time extends Component{
 
     render(){
         return(
-           <div class="time-box">
+           <div className="time-box">
                <p>{this.date()}</p>
                <p>{this.currentTime().timeString}</p>
                <p>{this.currentTime().meal}</p>
