@@ -3,10 +3,11 @@
     background-color: #872434;
     margin: 0;
     width: 100vw;
+    height: 100vh;
   }
 
   #root{
-    width: 2048px;
+    width: 100vw;
   }
   
   .back-arrow-image{
