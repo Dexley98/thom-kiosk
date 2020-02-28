@@ -1,26 +1,5 @@
-.App{
-  position: absolute;
-  width: 100vw;
-  left: 0;
-  top: 0;
-}
 
 body{
   font-family: Archivo, sans-serif;
   background-color:#872434;
-  margin: 0;
-  width: 2048px;
-}
-
-html{
-  margin: 0;
-}
-
-.time-box{
-  color: #FFB20F;
-  font-size: 2em;
-  text-align: right;
-  position: absolute;
-  left: 82%;
-  top: -1%;
 }

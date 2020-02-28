@@ -17,7 +17,7 @@ class Logo extends Component{
 
     render(){
         return(
-            <Link to="/"><img src={logo} className="logo-image" alt="Winthrops old logo" style={{width: 275, height: 275}}/></Link>
+            <Link to="/"><img src={logo} className="logo-image" alt="Winthrops old logo" style={{width: 100, height: 100}}/></Link>
         )
     }
 }

@@ -1,4 +1,14 @@
 import React, {Component} from "react"
+import { formatDiagnosticsWithColorAndContext } from "typescript"
+
+const styleRules = {
+    color: "#FFB20F",
+    fontSize:"2em",
+    textAlign: "right",
+    position: "absolute",
+    width: "250px",
+    left: "1734px"
+};
 
 class Time extends Component{
     constructor(){
@@ -68,7 +78,7 @@ class Time extends Component{
 
     render(){
         return(
-           <div className="time-box">
+           <div style={styleRules} className="time-box">
                <p>{this.date()}</p>
                <p>{this.currentTime().timeString}</p>
                <p>{this.currentTime().meal}</p>
