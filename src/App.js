@@ -22,7 +22,7 @@ import PayToEnter from "./components/PayToEnter"
 export default function App() {
   return (
     <Router>
-      <div>
+      <div className="App">
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
