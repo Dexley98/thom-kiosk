@@ -7,7 +7,7 @@ const styleRules = {
     textAlign: "right",
     position: "absolute",
     width: "250px",
-    left: "1734px"
+    left: "82%"
 };
 
 class Time extends Component{
