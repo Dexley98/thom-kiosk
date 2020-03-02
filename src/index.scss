@@ -3,7 +3,7 @@
 @import './styles/exit-button';
 @import './styles/payment-form';
 @import './styles/school-group';
-
+@import './styles/confirmation';
 /* start body style rules */
   body {
     font-family: 'Archivo', sans-serif;
@@ -92,9 +92,6 @@
   }
   /* end left and right button position and style rules */
   
-
-  
-
   p button{
     vertical-align: center;
   }
@@ -104,18 +101,4 @@
     padding: .25em;
   }
   
-  .hello{
-    width: 90vw;
-    position: absolute;
-    top: 50%;
-    left: 0%;
-  }
-  
-  h4{
-    font-size: 2em;
-    position: absolute;
-    left: 20%;
-    top: 90%;
-  }
-
 

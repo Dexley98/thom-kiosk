@@ -64,7 +64,7 @@ export default function App() {
           <Route path="/school-confirmation">
             <Time />   
             <Logo />
-            <Message line1="Thank you Griffin!" line2="a receipt of your purchase of $499.50 has been sent to:" email="griffin.busbee@teacherman.com"/>
+            <Message line1="Thank you Griffin!" h1Class="confirmation-h1" line2="a receipt of your purchase of $499.50 has been sent to:" h2Class="confirmation-h2" email="griffin.busbee@teacherman.com"/>
             <Turnstile />
             <Exit destination="/" />
           </Route>
@@ -82,7 +82,7 @@ export default function App() {
           <Route path="/individual-confirmation">
             <Time />
             <Logo />
-            <Message line1="Thank you Betty!" line2="a receipt of your purchase of $9.99 has been sent to:" email="admin@bettyskitchen.com"/>
+            <Message line1="Thank you Betty!" h1Class="confirmation-h1" line2="a receipt of your purchase of $9.99 has been sent to:" h2Class="confirmation-h2" email="admin@bettyskitchen.com"/>
             <Turnstile />
             <Exit destination="/" />
           </Route>
@@ -121,7 +121,7 @@ export default function App() {
           <Route path="/staff-confirmation">
             <Time />
             <Logo />
-            <Message line1="Thank you Gerry!" line2="a receipt of your purchase of $9.99 has been sent to:" email="derkseng@winthrop.edu"/>
+            <Message line1="Thank you Gerry!" h1Class="confirmation-h1" line2="a receipt of your purchase of $9.99 has been sent to:" h2Class="confirmation-h2" email="derkseng@winthrop.edu"/>
             <Turnstile />
             <Exit destination="/" />
           </Route>
@@ -149,7 +149,7 @@ export default function App() {
           <Route path="/student-confirmation">
             <Time />
             <Logo />
-            <Message line1="Thank you Dom!" line2="a receipt of your purchase of $9.99 has been sent to:" email="exleyd2@mailbox.winthrop.edu"/>
+            <Message line1="Thank you Dom!" h1Class="confirmation-h1" line2="a receipt of your purchase of $9.99 has been sent to:" h2Class="confirmation-h2" email="exleyd2@winthrop.edu"/>
             <Turnstile />
             <Exit destination="/" />
           </Route>

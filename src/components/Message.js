@@ -14,7 +14,7 @@ class Message extends Component{
                     <h2 className={this.props.h2Class}>{this.props.line2}</h2>
                 }
                 {this.props.email !== undefined &&
-                    <h3>{this.props.email}</h3>
+                    <h3 className="confirmation-email">{this.props.email}</h3>
                 }
             </header>
         )
