@@ -2,8 +2,17 @@
 @media screen and (min-device-width: 1536px) and (max-device-width: 2048px){
   body{
     font-family: Archivo, sans-serif;
-    background-color: blue;
+    background-color: #872434;
   }
+
+  .time-box {
+      color: #FFB20F;
+      font-size: 2em;
+      text-align: right;
+      position: absolute;
+      width: 250px;
+      left: 79%;
+   }
   
 } 
 
