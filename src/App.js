@@ -45,7 +45,7 @@ export default function App() {
             <Back destination="/visitors" />
             <Time />
             <Logo />
-            <Message line1="How many in your group?" />
+            <Message line1="How many in your group?" h1Class="school-h1"/>
             <Group />
             <Button classy="group-button" destination="/school-payment" text="Proceed to Payment"/>
             <Exit destination="/" />

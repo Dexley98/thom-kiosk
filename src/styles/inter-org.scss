@@ -1,0 +1,45 @@
+  /* start inter-org style and position rules */
+  .inter-org-h1{
+    position: absolute;
+    left: 15%;
+    top: 23%;
+  }
+  
+  .inter-org-h2{
+    position: absolute;
+    left: 17%;
+    top: 50%;
+    font-size: 1.5em;
+  }
+  .id-check{
+    position: absolute;
+    left: 39%;
+    top: 42%;
+    input{
+      width: 40%;
+      height: 4vh;
+    }
+  }
+  
+  .id-w{
+    font-size: 4em;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    left: -14%;
+    top: -12%;
+  }
+
+    
+  .left-button-interorg{
+    position: absolute;
+    top: 65%;
+    left: 12%;
+  }
+  
+  .right-button-interorg{
+    position: absolute;
+    top: 65%;
+    left: 55%;
+  }
+  /* end inter-org style and position rules */ 
