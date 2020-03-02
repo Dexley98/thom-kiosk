@@ -10,12 +10,12 @@ class Form extends Component{
         return(
             <div className="form">
                 {this.props.needEmail &&
-                    <input type="email" placeholder="Email (for your receipt)"/>
+                    <input className="form-email" type="email" placeholder="Email (for your receipt)"/>
                 }
-                <input type="text" placeholder="Cardholder Name" /><br/>
-                <input type="text" placeholder="Card Number" /><br/>
-                <input type="number" placeholder="CVV" limit="3" /><br />
-                <input type="text" placeholder="Exp" limit="5" /><br />
+                <input className="form-cardholder" type="text" placeholder="Cardholder Name" />
+                <input className="form-card-number" type="text" placeholder="Card Number" />
+                <input className="form-cvv" type="number" placeholder="CVV" limit="3" />
+                <input className="form-exp" type="text" placeholder="Exp" limit="5" />
             </div>
         )
     }

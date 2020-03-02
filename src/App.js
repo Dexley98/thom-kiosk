@@ -36,7 +36,7 @@ export default function App() {
             <Back destination="/pay-to-enter"/>
             <Time />  
             <Logo />
-            <Message line1="Plese Choose an Option" />
+            <Message line1="Please Choose an Option" />
             <Button classy="left-button" destination="/school-group" text="School Group"/>
             <Button classy="right-button" destination="/individual" text="Individual" money="($9.99)"/>
           </Route>
@@ -91,7 +91,7 @@ export default function App() {
             <Back destination="/pay-to-enter" />
             <Time />
             <Logo />
-            <Message line1="Please Enter Your WU #" line2="We will send your receipt to the email on file for this Account." />
+            <Message line1="Please Enter Your WU #" h1Class="inter-org-h1" line2="We will send your receipt to the email on file for this Account." h2Class="inter-org-h2" />
             <IDcheck />
             <Button classy="left-button-interorg" destination="/staff" text="Faculty &amp; Staff"/>
             <Button classy="right-button-interorg" destination="/students" text="Students"/>
@@ -102,9 +102,9 @@ export default function App() {
             <Back destination="/inter-org" />
             <Time />
             <Logo />
-            <Message line1="Good Afternoon Gerry" line2="Please Choose an Option" />
-            <Button classy="left-button" destination="/staff-payment" text="Credit Card" money="($5.99)"/>
-            <Button classy="right-button" destination="/staff-confirmation" text="Enter with Meal Plan"/>
+            <Message line1="Good Afternoon Gerry" h1Class="staff-h1" line2="Please Choose an Option" h2Class="student-staff-h2"/>
+            <Button classy="left-button-student-staff" destination="/staff-payment" text="Credit Card" money="($5.99)"/>
+            <Button classy="right-button-student-staff" destination="/staff-confirmation" text="Enter with Meal Plan"/>
             <Exit destination="/" />
           </Route>
 
@@ -130,9 +130,9 @@ export default function App() {
             <Back destination="/inter-org" />
             <Time />
             <Logo />
-            <Message line1="Good Afternoon Dom" line2="Please Choose an Option" />
-            <Button classy="left-button" destination="/student-payment" text="Credit Card" money="($9.99)"/>
-            <Button classy="right-button" destination="/student-confirmation" text="Enter with Meal Plan"/>
+            <Message line1="Good Afternoon Dom" h1Class="student-h1" line2="Please Choose an Option" h2Class="student-staff-h2"/>
+            <Button classy="left-button-student-staff" destination="/student-payment" text="Credit Card" money="($9.99)"/>
+            <Button classy="right-button-student-staff" destination="/student-confirmation" text="Enter with Meal Plan"/>
             <Exit destination="/" />
           </Route>
 

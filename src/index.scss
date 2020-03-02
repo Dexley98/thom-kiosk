@@ -1,3 +1,7 @@
+@import './styles/student-staff';
+@import './styles/exit-button';
+@import './styles/payment-form';
+
 /* start body style rules */
   body {
     font-family: 'Archivo', sans-serif;
@@ -9,6 +13,11 @@
   #root{
     width: 100vw;
     height: 100vh;
+  }
+
+  .logo-image{
+    position: absolute;
+    left: 40%;
   }
   /* end body style rules */
 
@@ -24,17 +33,17 @@
   
   /* h1 Rules */
   h1{
-    font-size: 3.75em;
+    font-size: 4em;
     color: #fff;
     position: absolute;
-    left: 14%;
+    left: 12%;
     top: 23%;
   }
 
   /* all button rules */
   button{
     color: #872434;
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: bold;
     background-color: #fff;
     padding: 2em;
@@ -44,7 +53,7 @@
   .solo{
     position: absolute;
     top: 50%;
-    left: 30%; 
+    left: 31.5%; 
   }
 
   /* start back arrow positioning and style rules */
@@ -61,74 +70,81 @@
 
   /* start left and right button position and style rules */
   .left-button{
-    width: 0%;
+    width: 20%;
     position: absolute;
     top: 50%;
-    left: 9%;
+    left: 18%;
+
   }
   
   .right-button{
+    width: 20%;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 52%;
+  }
+  /* end left and right button position and style rules */
+  
+  /* start inter-org style and position rules */
+  .inter-org-h1{
+    position: absolute;
+    left: 15%;
+    top: 23%;
+  }
+
+  h2{
+    font-size: 2em;
+    color: #fff;
   }
   
+  .inter-org-h2{
+    position: absolute;
+    left: 7%;
+    top: 50%;
+  }
+  .id-check{
+    position: absolute;
+    left: 39%;
+    top: 42%;
+    input{
+      width: 34%;
+      height: 4vh;
+    }
+  }
+  
+  .id-w{
+    font-size: 4em;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    left: -14%;
+    top: -12%;
+  }
+
+    
   .left-button-interorg{
     position: absolute;
     top: 65%;
-    left: 9%;
+    left: 12%;
   }
   
   .right-button-interorg{
     position: absolute;
     top: 65%;
-    left: 50%;
+    left: 55%;
   }
-  /* end left and right button position and style rules */
-  
-  h2{
-    font-size: 2em;
-    color: #fff;
-    position: absolute;
-    left: 15%;
-    top: 52%;
-  }
-  
-  .id-check{
-    position: absolute;
-    left: 30%;
-    top: 46%;
-  }
-  
-  .id-w{
-    font-size: 72px;
-    font-weight: bold;
-    color: #fff;
-    position: absolute;
-    left: -10%;
-  }
-  
-  
-  .logo-image{
-    position: absolute;
-    left: 40%;
-  }
-  
+  /* end inter-org style and position rules */ 
   
 
-  
   p button{
     vertical-align: center;
   }
   
-  
-  
   input{
-    height: 4vh;
     font-size: 2.5em;
     padding: .25em;
   }
-  
+
   .form{
     position: absolute;
     top: 43%;
