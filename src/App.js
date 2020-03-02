@@ -109,7 +109,7 @@ export default function App() {
           </Route>
 
           <Route path="/staff-payment">
-            <Back destination="/back" />
+            <Back destination="/staff" />
             <Time />
             <Logo />
             <Message line1="Enter Your Card Information" />
