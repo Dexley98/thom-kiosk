@@ -18,7 +18,7 @@ class Back extends Component{
         return(
             <div className="back-arrow">
                 <Link to={this.props.destination}>
-                    <img className="back-arrow-image" src={back} alt="back button" style={{width: 150, height: 150}}/>
+                    <img className="back-arrow-image" src={back} alt="back button" style={{width: 100, height: 100}}/>
                 </Link>
             </div>
         )
