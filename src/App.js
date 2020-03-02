@@ -55,7 +55,7 @@ export default function App() {
             <Back destination="/school-group" />
             <Time />    
             <Logo />
-            <Message line1="Enter Your Card Information" />
+            <Message line1="Enter Your Card Information" h1Class="payment-h1"/>
             <Form needEmail={true} />
             <Button classy="solo-form" destination="/school-confirmation" text="Submit"/>
             <Exit destination="/" />
@@ -73,7 +73,7 @@ export default function App() {
             <Back destination="/visitors" />
             <Time />
             <Logo />
-            <Message line1="Enter Your Card Information" />
+            <Message line1="Enter Your Card Information" h1Class="payment-h1"/>
             <Form needEmail={true} />
             <Button classy="solo-form" destination="/individual-confirmation" text="Submit"/>
             <Exit destination="/" />
@@ -112,7 +112,7 @@ export default function App() {
             <Back destination="/staff" />
             <Time />
             <Logo />
-            <Message line1="Enter Your Card Information" />
+            <Message line1="Enter Your Card Information" h1Class="payment-h1"/>
             <Form needEmail={false}/>
             <Button classy="solo-form" destination="/staff-confirmation" text="Submit"/>
             <Exit destination="/" />
@@ -140,7 +140,7 @@ export default function App() {
             <Back destination="/students" />
             <Time />
             <Logo />
-            <Message line1="Enter your Card Information" />
+            <Message line1="Enter your Card Information" h1Class="payment-h1"/>
             <Form needEmail={false}/>
             <Button classy="solo-form" destination="/student-confirmation" text="Submit"/>
             <Exit destination="/" />
